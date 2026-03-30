@@ -13,26 +13,29 @@
 
 <body>
     <form style="background-color: #a35353; width: 400px; height: 500px;">
-        <h1>Dancing Registration Form</h1>
+        <h1 style="color:#141212; background-color:#1b4e6b;">Dancing Registration Form</h1>
         <label class="ntext">full name:</label>
         <input type="text" placeholder="enter your name" style="color: #0b7adb; background-color: beige"></br>
-        <label>address:</label>
-        <input type="text" placeholder="enter your address" style="color: #0b7adb; background-color: beige"></br>
-        <label> phone number:</label>
+        <label class="ntext">address:</label>
+        <input type="text" placeholder="enter your address" style="color: #1b4e6b; background-color: beige"></br>
+        <label class="ntext"> phone number:</label>
         <input type="text" placeholder="enter your phone number" style="color: #0b7adb; background-color: beige"></br>
-        <label> date of birth:</label>
+        <label class="ntext"> date of birth:</label>
         <input type="date" placeholder="enter your date of birth" style="color: #0b7adb; background-color: beige"></br>
      <hr>   
-        <label>gender:</label></br>
-        <input type="radio" name="gender">male></br>
-        <input type="radio" name="gender">female></br>
-        <input type="radio" name="gender">others></br>
+        <label style="color: aqua; background-color: #1b4e6b;">gender:</label></br>
+        <select>
+        <option text="male" placeholder="gender" male </option></br>
+        <option text="female" placeholder="gender"female</option></br>
+        <option text="female" placeholder="gender" others</option></br>
+        </select>
     <hr>
-        <label>dances available:</label></br>
-        <input type="checkbox" name="clascial dance">Kuchipudi ></br>
-        <input type="checkbox" name="clascial dance">Bharatnatyam></br>
+        <label style="color: aqua; background-color: #1b4e6b;">dances available:</label></br>
+        <input type="checkbox" name="clascial dance" style="color: #a35353;">Kuchipudi </br>
+        <input type="checkbox" name="clascial dance">Bharatnatyam</br>
         <input type="checkbox" name="clasical dance">Kathakali</br>
-        <input type="checkbox" name="clasical dance">Kathakali</br>
+        <input type="checkbox" name="clasical dance">manipuri</br>
+        <button onclick="submitevent()" style="colour:burlywood; background-color: beige";>submit</button>
     </form>
 
 </body>
