@@ -12,4 +12,4 @@ Cascading Style Sheets
 7.font-family:
 8.font-weight:
 9.font-style:
-10.font-palette
+10.font-palette:
