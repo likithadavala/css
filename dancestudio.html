@@ -12,22 +12,22 @@
 </head>
 
 <body>
-    <form style="background-color: #a35353; width: 400px; height: 500px;">
+    <form style="background-color: #a35353; width: 400px; height: 500px; padding: 10px; margin: 50px; border-radius: 20px; border-color: #ff1998; border-width: 5px; border-style: solid;   ">
         <h1 style="color:#141212; background-color:#1b4e6b;">Dancing Registration Form</h1>
-        <label class="ntext">full name:</label>
+        <label class="likitha">full name:<span style="color:red">*</span></label>
         <input type="text" placeholder="enter your name" style="color: #0b7adb; background-color: beige"></br>
-        <label class="ntext">address:</label>
+        <label class="likitha1">address:</label>
         <input type="text" placeholder="enter your address" style="color: #1b4e6b; background-color: beige"></br>
-        <label class="ntext"> phone number:</label>
+        <label class="likitha2"> phone number:</label>
         <input type="text" placeholder="enter your phone number" style="color: #0b7adb; background-color: beige"></br>
-        <label class="ntext"> date of birth:</label>
+        <label class="likitha3"> date of birth:</label>
         <input type="date" placeholder="enter your date of birth" style="color: #0b7adb; background-color: beige"></br>
      <hr>   
         <label style="color: aqua; background-color: #1b4e6b;">gender:</label></br>
         <select>
-        <option text="male" placeholder="gender" male </option></br>
-        <option text="female" placeholder="gender"female</option></br>
-        <option text="female" placeholder="gender" others</option></br>
+        <option text="male" placeholder="gender">male </option></br>
+        <option text="female" placeholder="gender">female</option></br>
+        <option text="others" placeholder="gender" >others</option></br>
         </select>
     <hr>
         <label style="color: aqua; background-color: #1b4e6b;">dances available:</label></br>
@@ -36,6 +36,7 @@
         <input type="checkbox" name="clasical dance">Kathakali</br>
         <input type="checkbox" name="clasical dance">manipuri</br>
         <button onclick="submitevent()" style="colour:burlywood; background-color: beige";>submit</button>
+    
     </form>
 
 </body>

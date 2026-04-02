@@ -1,11 +1,21 @@
-.ntext{
-            color: rgb(0, 177, 231);
-        }
-input{
-      color: rgb(218, 49, 83);
-      border-color: cornflowerblue;
-      text:
+.likitha {
+      color: rgb(0, 177, 231);
 }
-.class {
 
+.likitha1 {
+      color: rgb(207, 59, 92);
+}
+
+.likitha2 {
+      color: rgb(29, 238, 133);
+}
+
+.likitha3 {
+      color: rgb(186, 216, 17);
+}
+label{
+      color: sandybrown;
+}
+body{
+      padding: 50px;
 }
