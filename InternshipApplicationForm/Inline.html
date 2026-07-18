@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Internship Application Form</title>
+</head>
+
+<body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; background: #f7f7f7; color: #333;">
+    <h1 style="color: #2a5d9f;">Internship Application Form:</h1>
+    <label for="lblName">Name:</label><br>
+    <input id="txtName" type="text" placeholder="First Name" style="padding: 8px; width: 250px; margin-bottom: 8px; border: 1px solid #ccc; border-radius: 4px;">
+    <input id="txtName" type="text" placeholder="Last Name" style="padding: 8px; width: 250px; margin-bottom: 8px; border: 1px solid #ccc; border-radius: 4px;"><br>
+    <label for="lblDate">Date of Birth:</label><br>
+    <input id="txtDate" type="date" placeholder="📅 MM/DD/YYYY" style="padding: 8px; width: 260px; margin-bottom: 8px; border: 1px solid #ccc; border-radius: 4px;"><br>
+    <label for="lblPhone">Phone Number:</label><br>
+    <input id="txtPhone" type="number" placeholder="📞 ***** *****" style="padding: 8px; width: 260px; margin-bottom: 8px; border: 1px solid #ccc; border-radius: 4px;"><br>
+    <label for="lblAddress">Address:</label><br>
+    <input id="txtAddress" type="text" placeholder="📍 Enter your Address" style="padding: 8px; width: 520px; margin-bottom: 8px; border: 1px solid #ccc; border-radius: 4px;"><br>
+    <label for="lblGender">Gender:</label><br>
+    <div style="border-style: groove; width: 165px; padding: 8px; margin-bottom: 8px; border-radius: 4px; background: #fff;">
+        <input id="txtMale" type="radio" value="male"><span>Male</span><br>
+    </div>
+    <div style="border-style: groove; width: 165px; padding: 8px; margin-bottom: 8px; border-radius: 4px; background: #fff;">
+        <input id="txtFemale" type="radio" value="female"><span>Female</span><br>
+    </div>
+    <div style="border-style: groove; width: 165px; padding: 8px; margin-bottom: 8px; border-radius: 4px; background: #fff;">
+        <input id="txtOthers" type="radio" value="others"><span>Others</span><br>
+    </div>
+    <label for="lblEmail">Email Address:</label><br>
+    <input id="txtEmail" type="email" placeholder="Enter your Email Address" style="padding: 8px; width: 520px; margin-bottom: 8px; border: 1px solid #ccc; border-radius: 4px;"><br>
+    <label for="lblEducation">Education:</label><br>
+    <input id="txtEducation" type="text" placeholder="Enter your Education Details" style="padding: 8px; width: 520px; margin-bottom: 8px; border: 1px solid #ccc; border-radius: 4px;"><br>
+    <label for="lblSchool">Name of the School:</label><br>
+    <input id="txtSchool" type="text" placeholder="Enter your School Name" style="padding: 8px; width: 520px; margin-bottom: 8px; border: 1px solid #ccc; border-radius: 4px;"><br>
+    <label for="lblCV">Attach your CV:</label><br>
+    <input id="txtFile" type="file" placeholder="Choose file or drag here" style="padding: 8px; width: 520px; margin-bottom: 12px; border: 1px solid #999; border-radius: 4px; background: #fff;"><br>
+    <label for="lblSkills">Area of Interested Skills:</label><br>
+    <input id="txtFrontend" type="checkbox" value="frontend"><span>Frontend</span><br>
+    <input id="txtBackend" type="checkbox" value="backend"><span>Backend</span><br>
+    <input id="txtBoth" type="checkbox" value="both"><span>Frontend and Backend</span><br>
+    <input id="txtAI/ML" type="checkbox" value="ai/ml"><span>AI/ML</span><br>
+    <input id="txtData" type="checkbox" value="data"><span>Data Analayst</span><br>
+    <label for="lblPersonal">Personal Statement:</label><br>
+    <input id="txtPersonal" type="text" placeholder=""></br>
+    <button id="btnSubmit" oncanplay="onClickSubmit()">Submit</button>
+</body>
+
+</html>
