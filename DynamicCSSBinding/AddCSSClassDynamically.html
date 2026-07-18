@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add CSS Class Dynamically</title>
+    <style>
+        .dark-theme{
+            background: black;;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+    <script defer>
+        function onClickAppyTheme(){
+            debugger;
+            document.getElementById("card").classList.add("dark-theme")
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Add CSS Class Dynamically</h1>
+    <button id="btnApplyTheme" onclick="onClickAppyTheme()">Apply Theme</button>
+    <div id="card">Welcome</div>
+</body>
+
+</html>
