@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Validation Styling</title>
+    <script defer>
+        function onClickValidate(){
+            debugger;
+            let email = document.getElementById("email");
+            if(email.value === ""){
+                email.style.border ="2px solid red";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Form Validation Styling:</h1>
+    <input id="email">
+    <button onclick="onClickValidate()">Check</button>
+</body>
+
+</html>
