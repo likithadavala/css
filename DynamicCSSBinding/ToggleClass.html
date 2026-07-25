@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Toggle Class</title>
+    <style>
+        .hide{
+            display: none;
+        }
+    </style>
+    <script defer>
+        function onClickToggle(){
+            debugger;
+            document.getElementById("menu").classList.toggle("hide");
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Toggle Class:</h1>
+    <button id="btnToggleMenu" onclick="onClickToggle()">Toggle Menu</button>
+    <div id="menu">Home
+                   About
+                   Contact
+    </div>
+</body>
+
+</html>
