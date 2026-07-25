@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dynamic Font Size</title>
+    <script defer>
+        function onInputChangeSize(size){
+            debugger;
+            document.getElementById("text").style.fontSize = size +"px";
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Dynamic Font Size:</h1>
+    <input type="range" min="10" max="50" oninput="onInputChangeSize(this.value)">
+    <p id="text">Front End Training</p>
+</body>
+
+</html>
