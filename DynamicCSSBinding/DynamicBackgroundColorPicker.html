@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dynamic Background Color Picker</title>
+    <script defer>
+        function changeBg(color){
+            debugger;
+            document.getElementById("box").style.backgroundColor =color;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Dynamic Background Color Picker:</h1>
+    <input type="color" onchange="changeBg(this.value)">
+    <div id="box">Select Color</div>
+</body>
+
+</html>
