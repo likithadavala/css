@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Remove Class</title>
+       <style>
+        .dark-theme{
+            background: black;;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+    <script defer>
+              function onClickRemoveTheme(){
+                debugger;
+            document.getElementById("card").classList.remove("dark-theme")
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Remove Class:</h1>
+    <button id="btnApplyTheme" onclick="onClickRemoveTheme()">Apply Theme</button>
+    <div id="card">Welcome</div>
+</body>
+
+</html>
